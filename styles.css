@@ -4,6 +4,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    
 }
 
 .header {
@@ -94,15 +95,44 @@ button {
     margin: 50px;
 }
 
-.part3 {
-    background-color: #e5e7eb;
-}
-
 .Middle_Title {
     font-size: 36px;
     font-weight: extra-bold;
     color: #1f2937;
+    align-self: center;
+    border: #3882f6;
 }
+
+.part2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.pic-container {
+    justify-content: center;
+    border: #3882f6 3px;
+    border-radius: 3px;
+    width: 100px;
+    pad: 10px;
+    
+}
+
+.picture  {
+    
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    
+}
+
+
+.part3 {
+    background-color: #e5e7eb;
+    display: flex;
+} 
 
 .quote {
     font-style: italic;
